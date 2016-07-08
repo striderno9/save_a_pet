@@ -65,13 +65,12 @@ ul.top-nav li a:hover {
   width: 960px;
   margin: auto;
   background-color: #f0eee8;
-  /*height: 800px;*/
-  display: block;
+ /* display: block;*/
 }
 
 
 .pets {
-  width: 200px;
+  width: 15%;
   margin: 20px;
   border-radius: 50%;
   box-shadow: 10px 10px 5px #888888;
