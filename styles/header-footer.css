@@ -3,13 +3,11 @@
 html, body {
 	padding: 0;  margin: 0;
 }
-
 p {
 	font-family: "arial";
 }
-
 nav {
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	padding: 2px 0px 2px 0px;
 	background-color: #008aff;
 	clear: both;
@@ -58,9 +56,27 @@ ul.top-nav li a:hover {
 .clear {
 	clear: both;
 }
-#container {
+#bottom {
+	background-color: #333;
+}
+#footer {
 	width: 960px;
 	margin: auto;
-	height: 800px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#footertext {
+	width: 450px;
+	float: left;
+}
+#footertext p {
+	color: #fff;
+	font-family: "arial";
+	font-size: 14px;
+}
+#socialicon {
+	float:left;
+	margin-right: 20px;
+	margin-top: 20px;
 }
 

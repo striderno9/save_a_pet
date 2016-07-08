@@ -1,70 +1,82 @@
 @import url(https://fonts.googleapis.com/css?family=Delius+Unicase:400,700);
 
-html, body {
-	padding: 0;  margin: 0;
-}
 
-p {
-	font-family: "arial";
-}
-
-nav {
-	margin-bottom: 20px;
-	padding: 2px 0px 2px 0px;
-	background-color: #008aff;
-	clear: both;
-}
-
-ul.top-nav {
-	list-style-type: none;
-}
-
-ul.top-nav li {
-	display: inline-block;
-	padding-right: 20px;
-}
-
-ul.top-nav li a {
-	color: #000;
-	font-family: "arial";
-	font-size: 12px;
-	color: #fff;
-	text-decoration: none;
-}
-
-ul.top-nav li a:hover {
-	color: #a8d0f3;
-}
-#branding {
-	background-color: #003c7a;
-}
-
-#logo {
+h2 {
+	color: #ff7400;
 	font-family:"Delius Unicase", sans-serif;
-	font-weight: 700;
-	font-size: 42px;
-	color: #fff;
-	padding-top: 25px;	
-	padding-left: 40px;
-	width: 400px;
-	height: 75px;
-	float: left; /* shirmung change */
-
-}
-#logoimage {
-	float: left;
-	height: 100px; /* shirmung change */
+	margin-bottom: 5px;
 }
 
-/* shirmung change */
-.clear {
-	clear: both;
+li {
+	font-family: "arial";
+	list-style-type: square;
+	margin-bottom: 3px;
 }
+
 #container {
 	width: 960px;
 	margin: auto;
+	margin-bottom: 30px;
 	background-color: #f0eee8;
-	height: 800px;
-	display: block;
+	padding-bottom: 30px;
 }
-
+#story {
+	padding: 0;  margin: 0;
+}
+#text {
+	width: 450px;
+	float: left;
+	box-sizing: border-box;
+	padding-left: 30px;
+	padding-right: 15px;
+}
+#text a {
+	text-decoration: none;
+	color: #0087ff;
+	font-weight: bold;
+	font-size: 12px;
+}
+#illustration {
+	width: 450px;
+	float: left;
+	box-sizing: border-box;
+	padding-left: 30px;
+	padding-right: 15px;
+}
+#donationbox {
+	width: 200px;
+	height: 200px;
+	float: left;
+	box-sizing: border-box;
+	background-color: #49e0cd;
+	margin-left: 280px;
+}
+#donationbox h3 {
+	color: white;
+	font-family:"Delius Unicase", sans-serif;
+	font-size: 22px;
+	text-align: center;
+	margin-top: 30px;
+}
+#donationbox p {
+	color: 000;
+	font-size: 14px;
+	line-height: 18px;
+	margin: 10px;
+	text-align: center;
+}
+#donationbox a {
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+	font-size: 16px;
+}
+#rule {
+	width: 900px;
+	height: 4px;
+	background-color: #fff;
+	float: left;
+	margin-left: 30px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
