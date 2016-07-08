@@ -1,18 +1,146 @@
 @import url(<link href="https://fonts.googleapis.com/css?family=Secular+One" rel="stylesheet">);
 
+@import url(https://fonts.googleapis.com/css?family=Delius+Unicase:400,700);
 
-
-/*font-family: 'Secular One', sans-serif;
-*/
-
-.columnLeft{
-	margin-left:15px;
-	display: inline-block;
-	background-color: lightblue;
+html, body {
+	padding: 0;  margin: 0;
 }
 
-.columnRight{
-	margin-right: 15px;
-	display: inline-block;
-	background-color: lightgreen;
+p{
+	font-family: "arial";
 }
+
+nav {
+	margin-bottom: 20px;
+	padding: 2px 0px 2px 0px;
+	background-color: #008aff;
+	clear: both;
+}
+
+ul.top-nav {
+	list-style-type: none;
+}
+
+ul.top-nav li {
+	display: inline-block;
+	padding-right: 20px;
+}
+
+ul.top-nav li a {
+	color: #000;
+	font-family: "arial";
+	font-size: 12px;
+	color: #fff;
+	text-decoration: none;
+}
+
+ul.top-nav li a:hover {
+	color: #a8d0f3;
+}
+#branding {
+	background-color: #003c7a;
+}
+
+#logo {
+	font-family:"Delius Unicase", sans-serif;
+	font-weight: 700;
+	font-size: 42px;
+	color: #fff;
+	padding-top: 25px;	
+	padding-left: 40px;
+	width: 400px;
+	height: 75px;
+	float: left; /* shirmung change */
+
+}
+#logoimage {
+	float: left;
+	height: 100px; /* shirmung change */
+}
+
+/* shirmung change */
+.clear {
+	clear: both;
+}
+
+#carouselLeft, #carouselRight{
+	width:300px;
+	height:350px;
+	background-color: #003c7a;
+}
+
+#carouselLeft{
+	float:left;
+}
+
+#carouselRight{
+	float:right;
+}
+
+.carousel{
+	margin:0 auto;
+	padding:10px 300px;
+	background-color: #003c7a;
+	max-width:500px;
+	border:5px solid #008aff;
+}
+
+.mySlides {
+	width:100%;
+}
+
+.container{
+	margin:0 auto;
+	width:960px;
+}
+
+h2, h3 {
+	font-family:"Delius Unicase", sans-serif;
+	text-align: center;
+}
+
+.column{
+	width:50%;
+	box-sizing: border-box;
+	display: inline-block;
+	float:left;
+	padding:1%;
+}
+
+.testimonials{
+	height:150px;
+	display:block;
+}
+
+.imgFloatLeft{
+	float:left;
+	height:100px;
+	margin-bottom:10px;
+	margin-left:10px;
+	margin-right:10px;
+	clear: both;
+	border:5px solid #008aff;
+
+}
+
+.imgFloatRight{
+	float:right;
+	height:100px;
+	margin-bottom:10px;
+	margin-left:10px;
+	margin-right:10px;
+	border:5px solid #008aff;
+}
+
+
+@media all and (max-width: 900px){
+	.carousel{
+		padding:10px;
+	}
+};
+
+@media all and (min-width:100) and (max-width: 700px){
+	.column{
+		width:100%;
+	}
+};
