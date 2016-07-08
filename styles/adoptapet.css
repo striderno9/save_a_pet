@@ -1,0 +1,78 @@
+
+@import url(https://fonts.googleapis.com/css?family=Delius+Unicase:400,700);
+
+html, body {
+  padding: 0;  margin: 0;
+}
+
+p {
+  font-family: "arial";
+}
+
+nav {
+  margin-bottom: 20px;
+  padding: 2px 0px 2px 0px;
+  background-color: #008aff;
+  clear: both;
+}
+
+ul.top-nav {
+  list-style-type: none;
+}
+
+ul.top-nav li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+ul.top-nav li a {
+  color: #000;
+  font-family: "arial";
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+}
+
+ul.top-nav li a:hover {
+  color: #a8d0f3;
+}
+#branding {
+  background-color: #003c7a;
+}
+
+#logo {
+  font-family:"Delius Unicase", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  color: #fff;
+  padding-top: 25px;  
+  padding-left: 40px;
+  width: 400px;
+  height: 75px;
+  float: left; /* shirmung change */
+
+}
+#logoimage {
+  float: left;
+  height: 100px; /* shirmung change */
+}
+
+/* shirmung change */
+.clear {
+  clear: both;
+}
+#container {
+  width: 960px;
+  margin: auto;
+  background-color: #f0eee8;
+ /* display: block;*/
+}
+
+
+.pets {
+  width: 15%;
+  margin: 20px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 5px #888888;
+
+}
