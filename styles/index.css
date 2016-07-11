@@ -1,88 +1,7 @@
-@import url(<link href="https://fonts.googleapis.com/css?family=Secular+One" rel="stylesheet">);
-
-@import url(https://fonts.googleapis.com/css?family=Delius+Unicase:400,700);
-
-html, body {
-	padding: 0;  margin: 0;
-}
-
-p{
-	font-family: "arial";
-}
-
-nav {
-	margin-bottom: 20px;
-	padding: 2px 0px 2px 0px;
-	background-color: #008aff;
-	clear: both;
-}
-
-ul.top-nav {
-	list-style-type: none;
-}
-
-ul.top-nav li {
-	display: inline-block;
-	padding-right: 20px;
-}
-
-ul.top-nav li a {
-	color: #000;
-	font-family: "arial";
-	font-size: 12px;
-	color: #fff;
-	text-decoration: none;
-}
-
-ul.top-nav li a:hover {
-	color: #a8d0f3;
-}
-#branding {
-	background-color: #003c7a;
-}
-
-#logo {
-	font-family:"Delius Unicase", sans-serif;
-	font-weight: 700;
-	font-size: 42px;
-	color: #fff;
-	padding-top: 25px;	
-	padding-left: 40px;
-	width: 400px;
-	height: 75px;
-	float: left; /* shirmung change */
-
-}
-#logoimage {
-	float: left;
-	height: 100px; /* shirmung change */
-}
-
-/* shirmung change */
-.clear {
-	clear: both;
-}
-
-#carouselLeft, #carouselRight{
-	width:300px;
-	height:350px;
-	background-color: #003c7a;
-}
-
-#carouselLeft{
-	float:left;
-}
-
-#carouselRight{
-	float:right;
-}
-
 .carousel{
 	margin:0 auto;
-	padding:10px 300px;
-	background-color: #003c7a;
-	max-width:500px;
-	border:5px solid #008aff;
+	border-top: 5px solid yellow;
+	border-bottom: 5px solid yellow;
 }
 
 .mySlides {
@@ -92,6 +11,7 @@ ul.top-nav li a:hover {
 .container{
 	margin:0 auto;
 	width:960px;
+	background-color: #f0eee8;
 }
 
 h2, h3 {
@@ -105,6 +25,7 @@ h2, h3 {
 	display: inline-block;
 	float:left;
 	padding:1%;
+	padding-right:5%;
 }
 
 .testimonials{
@@ -115,24 +36,32 @@ h2, h3 {
 .imgFloatLeft{
 	float:left;
 	height:100px;
-	margin-bottom:10px;
+	margin-bottom:5px;
 	margin-left:10px;
 	margin-right:10px;
 	clear: both;
-	border:5px solid #008aff;
+	border:3px solid #008aff;
+	border-radius: 20px;
 
 }
 
 .imgFloatRight{
 	float:right;
 	height:100px;
-	margin-bottom:10px;
+	margin-bottom:5px;
 	margin-left:10px;
 	margin-right:10px;
-	border:5px solid #008aff;
+	clear: both;
+	border:3px solid #008aff;
+	border-radius: 20px;
+
 }
 
-button {
+.textAlignRight {
+	text-align: right;
+}
+
+#donateButton {
     background-color: #008aff;
     border: 2px solid #003c7a;
     padding: 15px 32px;
@@ -148,7 +77,7 @@ button {
     margin-bottom: 15px;
 }
 
-button:hover {
+#donateButton:hover {
 	background-color: yellow;
 	padding:19px 40px;
 	margin-bottom: 7px;
@@ -164,12 +93,6 @@ button a{
 @media all and (max-width: 900px){
 	.carousel{
 		padding:10px;
-	}
-}
-
-@media all and (min-width: 100px)(max-width:700px){
-	.container{
-		width:100%;
 	}
 }
 
