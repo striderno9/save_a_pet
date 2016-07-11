@@ -132,15 +132,44 @@ h2, h3 {
 	border:5px solid #008aff;
 }
 
+button {
+    background-color: #008aff;
+    border: 2px solid #003c7a;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family:"Delius Unicase", sans-serif;
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 15px;
+    position:relative;
+    left:28%;
+    margin-top:20px;
+    margin-bottom: 15px;
+}
+
+button:hover {
+	background-color: yellow;
+	padding:19px 40px;
+	margin-bottom: 7px;
+	margin-top: 19px;
+	left:26%;
+}
+
+button a{
+	text-decoration: none;
+	color:#003c7a;
+}
 
 @media all and (max-width: 900px){
 	.carousel{
 		padding:10px;
 	}
-};
+}
 
-@media all and (min-width:100) and (max-width: 700px){
-	.column{
+@media all and (min-width: 100px)(max-width:700px){
+	.container{
 		width:100%;
 	}
-};
+}
+
