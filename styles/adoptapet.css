@@ -76,3 +76,26 @@ ul.top-nav li a:hover {
   box-shadow: 10px 10px 5px #888888;
 
 }
+
+#sidebar1 {
+    position: absolute;
+    top:153px; 
+    bottom: 0; 
+    right:0;
+    width:180px;
+    border-style: solid;
+    background: lightblue;
+
+}
+
+.links {
+  font-family:"Delius Unicase", sans-serif;
+  font-weight: 100;
+  font-size: 11px;
+  color: #fff;
+  padding-top: 10px;  
+  padding-left: 2px;
+  padding-right: 2px;
+  width: 400px;
+  height: 75px;
+}
