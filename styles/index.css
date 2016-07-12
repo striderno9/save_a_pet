@@ -85,6 +85,10 @@ h2, h3 {
 	left:26%;
 }
 
+#dogicon{
+	margin:3px;
+}
+
 button a{
 	text-decoration: none;
 	color:#003c7a;
