@@ -1,0 +1,98 @@
+.carousel{
+	margin:0 auto;
+	border-top: 5px solid yellow;
+	border-bottom: 5px solid yellow;
+}
+
+.mySlides {
+	width:100%;
+}
+
+.container{
+	margin:0 auto;
+	width:960px;
+	background-color: #f0eee8;
+}
+
+h2, h3 {
+	font-family:"Delius Unicase", sans-serif;
+	text-align: center;
+}
+
+.column{
+	width:50%;
+	box-sizing: border-box;
+	display: inline-block;
+	float:left;
+	padding:1%;
+	padding-right:5%;
+}
+
+.testimonials{
+	height:150px;
+	display:block;
+}
+
+.imgFloatLeft{
+	float:left;
+	height:100px;
+	margin-bottom:5px;
+	margin-left:10px;
+	margin-right:10px;
+	clear: both;
+	border:3px solid #008aff;
+	border-radius: 20px;
+
+}
+
+.imgFloatRight{
+	float:right;
+	height:100px;
+	margin-bottom:5px;
+	margin-left:10px;
+	margin-right:10px;
+	clear: both;
+	border:3px solid #008aff;
+	border-radius: 20px;
+
+}
+
+.textAlignRight {
+	text-align: right;
+}
+
+#donateButton {
+    background-color: #008aff;
+    border: 2px solid #003c7a;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-family:"Delius Unicase", sans-serif;
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 15px;
+    position:relative;
+    left:28%;
+    margin-top:20px;
+    margin-bottom: 15px;
+}
+
+#donateButton:hover {
+	background-color: yellow;
+	padding:19px 40px;
+	margin-bottom: 7px;
+	margin-top: 19px;
+	left:26%;
+}
+
+button a{
+	text-decoration: none;
+	color:#003c7a;
+}
+
+@media all and (max-width: 900px){
+	.carousel{
+		padding:10px;
+	}
+}
+

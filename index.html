@@ -2,78 +2,100 @@
 <html>
 	<head>
 		<title>Save a Pet</title>
-		<link rel="stylesheet" type="text/css" href="index.css">
+		<link rel="stylesheet" type="text/css" href="styles/index.css">
+		<link rel="stylesheet" type="text/css" href="styles/header-footer.css">
 
 	</head>
 	<body>
 		<div id="branding">
 			<div id="logo">save·a·pet</div>
-			<div id="logoimage"><img src="./Save·a·Pet - Help_files/animals.png"></div>
+			<div id="logoimage"><img src="images/animals.png"></div>
 			<div class="clear"></div> <!-- shirmung change -->
 		</div>
 		<nav>
 			<ul class="top-nav">
 				<li>
-					<a href="http://nycda.zone/odell713/saveapet/index.html">HOME</a>
+					<a href="index.html">HOME</a>
 				</li>
 				<li>
-					<a href="http://nycda.zone/odell713/saveapet/find.html">FIND A PET</a>
+					<a href="adoptapet.html">FIND A PET</a>
 				</li>
 				<li>
-					<a href="http://nycda.zone/odell713/saveapet/help.html">HOW YOU CAN HELP</a>
+					<a href="help.html">HOW YOU CAN HELP</a>
 				</li>
 				<li>
-					<a href="http://nycda.zone/odell713/saveapet/help.html">DONATE</a>
+					<a href="contact.html">DONATE</a>
 				</li>
 			</ul>
 		</nav>
 
-
-		<div class="carousel">
-	  			<img class="mySlides" src="index-images/testimonials1.jpg">
-	 		 	<img class="mySlides" src="index-images/testimonials2.jpg">
-	  			<img class="mySlides" src="index-images/testimonials1.jpg">
+		<div id="topImage">
+			<div class="carousel">
+	  			<img class="mySlides" src="images/carouselImage1.jpg">
+	 		 	<img class="mySlides" src="images/carouselImage2.jpg">
+	 		 	<img class="mySlides" src="images/carouselImage3.jpg">
+	 		 	<img class="mySlides" src="images/carouselImage4.jpg">
+	 		 	<img class="mySlides" src="images/carouselImage5.jpg">
+	  			<div class="clear"></div>
+			</div>
 		</div>
 
-
 		<div class="container">
-			
 			<div class="column">
 				<h2>New-Found Friends</h2>
 				<div class="testimonials">
-					<img src="index-images/testimonials1.jpg" class="imgFloatLeft">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua.  </p>
+					<img src="images/testimonials1.jpg" class="imgFloatLeft">
+					<p>"Riley is the cute little guy to the right.  He was found as a stray and in pretty sad shape when he arrived at Save a Pet.  But he didn't let those hard times affect his loving personality.Now he has a wonderful loving family and a new playmate!" <strong>~Charlotte and Jane</strong></p>
 				</div>
 				<div class="testimonials">
-					<img src="index-images/testimonials2.jpg" class="imgFloatLeft">
-					<p>Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. </p>
+					<img src="images/testimonials2.jpg" class="imgFloatRight">
+					<p class="textAlignRight">"Save a Pet brought us three wonderful dogs (Toto, Penny, and Pumpkin Pie) that have greatly enriched our family! Toto and Penny welcomed Pumkin Pie and they soon had a running/playing sequence around the house at fast speeds." <strong>~Lawrence and Tyler</strong> </p>
 				</div>
 				<div class="testimonials">
-					<img src="index-images/testimonials3.jpg" class="imgFloatLeft">
-					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur.</p>
+					<img src="images/testimonials3.jpg" class="imgFloatLeft">
+					<p>"I adopted a bear in March of 2012.  Such a wonderful addition to our family!!  Great with people and very clean. We immediately knew Bobo was part of our fam when we saw his picture. I would definitely recommend Adopt a Pet to anyone!!!" <strong>~ Leo</strong></p>
 				</div>
 				<div class="testimonials">
-					<img src="index-images/testimonials4.jpg" class="imgFloatLeft">
-					<p>Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
-				<div class="testimonials">
-					<img src="index-images/testimonials5.jpg" class="imgFloatLeft">
-					<p>blablabla</p>
+					<img src="images/testimonials5.jpg" class="imgFloatLeft">
+					<p>"My daughter brought home for me a wonderful kitten from Heartland last winter.  Little Tinsel, was a delight.  My granddaughter renamed him, Helo. He is part tiger and a true treasure of a loving wonderful pet.  Save a Pet provided us with a healthy wonderful kitten!" <strong>~Frank</strong> </p>
 				</div>	
+				<div class="testimonials">
+					<img src="images/testimonials4.jpg" class="imgFloatRight">
+					<p class="textAlignRight">"Fritz is so amazing. He is nearly house trained, he knows some commands now, and he is learning not to jump on folks. He gets along great with our terrier, Piggy and they play together daily. Thank you so very much for bringing Fritz into our lives!"<strong>~Anette</strong></p>
+				</div>
 			</div>
 
 			<div class="column">
-				<!-- donation button -->
+				<button type="button" id="donateButton"><a href="contact.html"><strong>Donate here!</strong></a></button>
 				<h2>About Us</h2>
-				<p></p>
+				<p>Our mission is to find permanent homes for animals in need, and to enrich lives by strengthening the connection between animals and people through community outreach. We are a 501c3 nonprofit organization.</p>
 				<h3>Related Articles</h3>
+				<p></p>
 			</div>
+			<div class="clear"></div>
 		</div>
+
+
+		<div id="bottom">
+			<div id="footer">
+				<div id="footertext"><p><strong> Save·a·Pet</strong><br>A nonprofit organization helping animals find homes.<br>1-800-555-1234 · info@saveapet.com<br>&copy; 2016 All Rights reserved.</p>
+				</div>
+
+				<div id="socialicon"><a href="#" target="_blank"><img src="images/facebook.png" height="50px" width="50"></a>
+				</div>
+
+				<div id="socialicon"><a href="#" target="_blank"><img src="images/twitter.png" height="50px" width="50"></a>
+				</div>
+
+				<div id="socialicon"><a href="#" target="_blank"><img src="images/instagram.png" height="50px" width="50"></a>
+				</div>
+
+				<div id="socialicon"><a href="#" target="_blank"><img src="images/linkedin.png" height="50px" width="50"></a>
+				</div>
+
+				<div class="clear"></div> 					
+			</div>
+		</div>	
 
 		<script src="index.js"></script>
 
