@@ -12,12 +12,21 @@
 
 }
 
-/*.sidebar {
-
+.sidebar {
   float: right;
+  background-color: #fd7421;
+  width: 25%;
+  height: 825px;
+  margin-left: 5px;
+
+ 
+  
+
+
+
 
 }
-*/
+
 
 .column {
   float: left;
@@ -25,6 +34,7 @@
   padding: 25px;
   box-sizing: border-box;
   background-color: #008aff;
+
 
 }
 
@@ -39,14 +49,16 @@
   padding-left: 8px;
   padding-right: 2px;
   padding-bottom: 10px;
-  
+
 
 
 }
 
 span {
-font-family:"Delius Unicase", sans-serif;
-color: #fff;
+font-size: 20px;
+/*border: 1px solid black;*/
+background-color: lavender;
+
 
 }
 
@@ -56,6 +68,7 @@ color: #fff;
   width: 30%;
 }
 
-
+ul { 
+ }
 
 
